@@ -157,7 +157,7 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=MMC1410001&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MMC1410001&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
 </div>
 
 ---
