@@ -6,6 +6,7 @@
   <a href="https://linkedin.com/in/mayur-chaudhary-0048bb164"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:mayurmchaudhary1998@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://x.com/MayurMChaudhary"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://www.instagram.com/mayurmilindchaudhary/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <img src="https://komarev.com/ghpvc/?username=MMC1410001&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
 </p>
 
@@ -190,6 +191,7 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 <p align="center">
   <a href="https://linkedin.com/in/mayur-chaudhary-0048bb164"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://x.com/MayurMChaudhary"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://www.instagram.com/mayurmilindchaudhary/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="https://github.com/MMC1410001"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="mailto:mayurmchaudhary1998@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://mayur-portfolio.mmcmayurmilindchaudharyportfolio.workers.dev/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Portfolio"/></a>
