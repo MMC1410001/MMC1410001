@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mayur Milind Chaudhary</h1>
-<h3 align="center">AI Full Stack Developer — from the interface you touch to the intelligence behind it.</h3>
+<h3 align="center">AI Full Stack Developer. From the interface you touch to the intelligence behind it.</h3>
 
 <p align="center">
   <a href="https://mayur-portfolio.mmcmayurmilindchaudharyportfolio.workers.dev/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Portfolio"/></a>
@@ -14,17 +14,17 @@
 
 ## 🧠 About Me
 
-I build **full stack products with AI wired through them** — RAG pipelines exposed over MCP, realtime voice agents, multi-agent architectures, and the Python/FastAPI backends and React interfaces that make them usable.
+I build **full stack products with AI wired through them**: RAG pipelines exposed over MCP, realtime voice agents, multi-agent architectures, and the Python/FastAPI backends and React interfaces that make them usable.
 
-I came into AI through **evaluation**, not hype. Three years of automation and LLM testing across FinTech, Pharma and enterprise AI taught me to ship systems that are *measurably* correct — so the agents I build come with judge-scored harnesses, cost tracking and tracing attached, not bolted on later.
+I came into AI through **evaluation**, not hype. Three years of automation and LLM testing across FinTech, Pharma and enterprise AI taught me to ship systems that are *measurably* correct, so the agents I build come with judge-scored harnesses, cost tracking and tracing attached, not bolted on later.
 
-- 🔭 **Currently at [Atrina Technologies](https://github.com/MMC1410001)** — building Frappe/ERPNext platforms (HR, payroll, OKRs, approvals, project delivery) and AI evaluation pipelines
+- 🔭 **Currently at [Atrina Technologies](https://github.com/MMC1410001)**, building Frappe/ERPNext platforms (HR, payroll, OKRs, approvals, project delivery) and AI evaluation pipelines
 - 🤖 **Building:** MCP servers, RAG retrieval systems, realtime voice agents, and LLM evaluation frameworks
 - 🌱 **Learning:** Agentic orchestration, production LLM systems, and evaluation-driven AI development
 - 👯 **Open to collaborating on:** open-source AI agent tooling, MCP servers, and RAG infrastructure
 - 💬 **Ask me about:** RAG · MCP · AI agents · LLM evaluation (LangSmith, RAGAs, DeepEval) · FastAPI · Frappe/ERPNext · Playwright
 - 📫 **Reach me:** **mayurmchaudhary1998@gmail.com** · 📍 Mumbai, India
-- ⚡ **Fun fact:** I started out as a Civil Engineer — I still think about software as a structure that has to carry load.
+- ⚡ **Fun fact:** I started out as a Civil Engineer, and I still think about software as a structure that has to carry load.
 
 ---
 
@@ -34,45 +34,45 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[mcp-rag-server](https://github.com/MMC1410001/mcp-rag-server)** | RAG exposed as an MCP server — local embeddings, Claude-grounded answers with citations | `Python` `MCP` `ChromaDB` |
+| **[mcp-rag-server](https://github.com/MMC1410001/mcp-rag-server)** | RAG exposed as an MCP server, with local embeddings and citation-backed Claude answers | `Python` `MCP` `ChromaDB` |
 | **[realtime-voice-agent](https://github.com/MMC1410001/realtime-voice-agent)** | Telephony voice agent with YAML-driven prompt engineering for interruption, language locking and escalation | `Python` `LiveKit` `OpenAI Realtime` |
-| **[qa-agent-architecture](https://github.com/MMC1410001/qa-agent-architecture)** | Systems design for a multi-agent AI QA platform — seven lifecycle agents, event-driven orchestration, saga compensation | `Python` `Multi-Agent` |
+| **[qa-agent-architecture](https://github.com/MMC1410001/qa-agent-architecture)** | Systems design for a multi-agent AI QA platform with seven lifecycle agents, event-driven orchestration and saga compensation | `Python` `Multi-Agent` |
 | **[ai-testcase-generator](https://github.com/MMC1410001/ai-testcase-generator)** | Scrapes a page with Playwright and drafts test cases using a locally-run LLM, wired into n8n | `JavaScript` `Ollama` `n8n` |
 
 ### 📊 LLM Evaluation
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[llm-prompt-evaluation-harness](https://github.com/MMC1410001/llm-prompt-evaluation-harness)** | Regression harness for system prompts — 13 judge-scored metrics, cost/latency tracking, LangSmith tracing | `Python` `LangSmith` |
-| **[llm-evaluation-framework](https://github.com/MMC1410001/llm-evaluation-framework)** | Evaluating LLM & RAG apps — RAGAS-style metrics, plugin system, multi-format reporting | `TypeScript` `RAGAS` |
+| **[llm-prompt-evaluation-harness](https://github.com/MMC1410001/llm-prompt-evaluation-harness)** | Regression harness for system prompts, with 13 judge-scored metrics, cost/latency tracking and LangSmith tracing | `Python` `LangSmith` |
+| **[llm-evaluation-framework](https://github.com/MMC1410001/llm-evaluation-framework)** | Evaluating LLM & RAG apps with RAGAS-style metrics, a plugin system and multi-format reporting | `TypeScript` `RAGAS` |
 | **[chatbot-regression-testing-framework](https://github.com/MMC1410001/chatbot-regression-testing-framework)** | LLM-as-judge harness scoring accuracy, truthfulness, semantic similarity and relevance | `Python` `LLM-as-Judge` |
-| **[speech-accuracy-testing](https://github.com/MMC1410001/speech-accuracy-testing)** | WER/CER harness for speech-to-text accuracy on code-mixed Hindi–English audio | `Python` `NLP` |
+| **[speech-accuracy-testing](https://github.com/MMC1410001/speech-accuracy-testing)** | WER/CER harness for speech-to-text accuracy on code-mixed Hindi and English audio | `Python` `NLP` |
 
 ### 🌐 Full Stack
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[frappe-workforce-erp](https://github.com/MMC1410001/frappe-workforce-erp)** | HR, payroll, attendance, OKRs, project delivery and IT ops — **118 DocTypes, 20 reports, 13 portal pages** | `Frappe` `Python` |
+| **[frappe-workforce-erp](https://github.com/MMC1410001/frappe-workforce-erp)** | HR, payroll, attendance, OKRs, project delivery and IT ops, spanning **118 DocTypes, 20 reports and 13 portal pages** | `Frappe` `Python` |
 | **[scheme-automation](https://github.com/MMC1410001/scheme-automation)** | Spreadsheet ingestion with BigQuery schema validation, GCS upload and Cloud Run triggering | `React` `TypeScript` `Express` `GCP` |
 | **[vedic-finance-insights](https://github.com/MMC1410001/vedic-finance-insights)** | Turns sidereal birth charts into deterministic financial scores | `React` `Supabase` |
-| **[notesgen](https://github.com/MMC1410001/notesgen)** · **[+ UI](https://github.com/MMC1410001/Utility_With_UI_for_notes)** | Turns course transcripts into structured revision notes — PDF, HTML, Word, Markdown, Google Docs | `Python` `FastAPI` `Gemini` |
+| **[notesgen](https://github.com/MMC1410001/notesgen)** · **[+ UI](https://github.com/MMC1410001/Utility_With_UI_for_notes)** | Turns course transcripts into structured revision notes, exporting to PDF, HTML, Word, Markdown and Google Docs | `Python` `FastAPI` `Gemini` |
 
 ### 🧪 Quality Engineering
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[playwright-test-automation-framework](https://github.com/MMC1410001/playwright-test-automation-framework)** | **1,678 tests** — API contract & security, browser E2E, accessibility, performance and SEO | `Playwright` `JavaScript` |
+| **[playwright-test-automation-framework](https://github.com/MMC1410001/playwright-test-automation-framework)** | **1,678 tests** covering API contract & security, browser E2E, accessibility, performance and SEO | `Playwright` `JavaScript` |
 | **[k6-performance-testing-framework](https://github.com/MMC1410001/k6-performance-testing-framework)** | Load, stress, soak and spike suites across nine application domains | `Grafana k6` `JavaScript` |
 
 ---
 
 ## 💼 Experience
 
-**Software Engineer — Full Stack & AI** · *Atrina Technologies* · `Mar 2025 – Present`
-> Building Frappe/ERPNext platforms — approvals, OKRs, feedback, subscriptions, credentials. Developed **LangSmith + RAGAs evaluation pipelines** in Python/pytest with token-cost accounting. Worked across AI products: **Planmytax.ai** (AI tax filing), **AION** (enterprise chatbot), **JasmineLabs** (meeting transcription AI) and **ValenceAi.io** (Pharma AI). Mentors junior engineers on automation and test design.
+**Software Engineer, Full Stack & AI** · *Atrina Technologies* · `Mar 2025 to Present`
+> Building Frappe/ERPNext platforms for approvals, OKRs, feedback, subscriptions and credentials. Developed **LangSmith + RAGAs evaluation pipelines** in Python/pytest with token-cost accounting. Worked across AI products: **Planmytax.ai** (AI tax filing), **AION** (enterprise chatbot), **JasmineLabs** (meeting transcription AI) and **ValenceAi.io** (Pharma AI). Mentors junior engineers on automation and test design.
 
-**Jr. Software Engineer — QA Automation** · *Smartstream Technologies* · `Nov 2022 – Mar 2025`
-> FinTech: invoice reconciliation, equity and payments — clients including **Credit Suisse** and **Barclays**. Led the full BDD Cucumber → **Playwright + TypeScript** migration, cutting regression cycle time **50%** and reaching **90%** test coverage. Improved pipeline speed **20%** and reliability **15%**; reduced time-to-release **20%**. Migrated QA infrastructure to **AWS EC2**. *Manager appreciation award for process improvement.*
+**Software Engineer, Automation** · *Smartstream Technologies* · `Nov 2022 to Mar 2025`
+> FinTech work across invoice reconciliation, equity and payments for clients including **Credit Suisse** and **Barclays**. Led the full BDD Cucumber to **Playwright + TypeScript** migration, cutting regression cycle time **50%** and reaching **90%** test coverage. Improved pipeline speed **20%** and reliability **15%**; reduced time-to-release **20%**. Migrated QA infrastructure to **AWS EC2**. *Manager appreciation award for process improvement.*
 
 ---
 
@@ -165,8 +165,8 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 ## 🎓 Education & Certifications
 
 **🎓 Education**
-- **PG Diploma in Advanced Computing (PG-DAC)** — CDAC ACTS, Thiruvananthapuram · *2022 · 78.50%*
-- **B.E. Civil Engineering** — Datta Meghe College of Engineering, Airoli · *2021 · 76.63%*
+- **PG Diploma in Advanced Computing (PG-DAC)**, CDAC ACTS, Thiruvananthapuram · *2022 · 78.50%*
+- **B.E. Civil Engineering**, Datta Meghe College of Engineering, Airoli · *2021 · 76.63%*
 
 **📜 Certifications**
 
@@ -204,4 +204,4 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 
 ---
 
-<p align="center"><i>Open to collaborating on AI agents, RAG systems and full stack products — let's build something.</i></p>
+<p align="center"><i>Open to collaborating on AI agents, RAG systems and full stack products. Let's build something.</i></p>
