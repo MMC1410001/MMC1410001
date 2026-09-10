@@ -143,16 +143,21 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MMC1410001&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MMC1410001&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MMC1410001&theme=tokyonight" alt="Profile Details"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MMC1410001&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MMC1410001&theme=tokyonight" alt="Top Languages by Repo"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MMC1410001&theme=tokyonight" alt="Top Languages by Commit"/>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MMC1410001&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MMC1410001&theme=tokyonight" alt="Stats"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MMC1410001&theme=tokyonight&utcOffset=5.5" alt="Productive Time"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=MMC1410001&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
 </div>
 
 ---
