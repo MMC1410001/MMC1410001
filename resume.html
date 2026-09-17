@@ -45,12 +45,16 @@ strong.m { color: #0d3d7a; }
 
 <div class="job">
   <div class="jobhead"><span>Software Engineer, Full Stack &amp; AI &nbsp;|&nbsp; Atrina Technologies</span><span>Mar 2025 to Present</span></div>
-  <div class="sub">Domains: FinTech (Taxation) · AI · Pharma &nbsp;|&nbsp; Mumbai</div>
+  <div class="sub">Domains: FinTech (Taxation &amp; Consumer) · AI · Pharma &nbsp;|&nbsp; Mumbai</div>
   <ul>
     <li>Build and ship <strong>Frappe/ERPNext</strong> business platforms in Python and JavaScript for approval workflows, OKRs, feedback cycles, subscriptions and credential management, spanning DocType modelling, server-side business logic, reports and customer-facing portal pages.</li>
     <li>Engineered <strong>LangSmith + RAGAs evaluation pipelines</strong> in Python/pytest that score LLM output quality on every change, with per-run <strong>token usage and cost accounting</strong>.</li>
     <li>Delivered AI features across four products: <strong>Planmytax.ai</strong> (AI tax filing, with chatbot, document ingestion and PostgreSQL data validation), <strong>AION</strong> (multi-department enterprise chatbot with agent capabilities), <strong>JasmineLabs</strong> (transcription, translation, summarisation, sentiment analysis and AI-generated MOM email workflows) and <strong>ValenceAi.io</strong> (Pharma AI).</li>
     <li>Built full-stack automation frameworks for web and mobile in <strong>TypeScript</strong>, plus performance (Grafana k6), API (Postman) and security (OWASP ZAP) validation for shipped services.</li>
+    <li>Moved from AI QA into full-stack delivery on <strong>AstroFin</strong> (astrofin.ai), rebuilding the customer-facing product in <strong>React 18, TypeScript and Vite</strong>: landing page, mobile-first rework, a sectioned admin console and an analytics dashboard with click heatmaps and funnel reporting.</li>
+    <li>Built AstroFin's <strong>first-party analytics pipeline end to end</strong>, from browser instrumentation through a Deno edge function and a 1,297-line PostgreSQL migration to the admin reporting UI, measuring dwell time, scroll depth, click heatmaps, form drop-off and conversion funnels, with internal traffic excluded per session.</li>
+    <li>Hardened the same product: closed <strong>three production vulnerabilities</strong> in its data-access and authorisation layers (each proven against the live system before and after the fix), diagnosed a silent guest data-loss incident and added hourly watchdog monitoring, and cut a 9&nbsp;MB landing page and a 564&nbsp;kB eagerly-loaded bundle down to size.</li>
+    <li>Stood up AstroFin's test infrastructure in <strong>Vitest</strong> (29 files), <strong>Playwright</strong> journeys and <strong>Deno</strong> edge-function suites (51 cases), repairing an end-to-end framework that had never run, with every regression test first proven to fail against the original code.</li>
     <li>Mentor junior engineers on automation, test design and AI evaluation practice; author the documentation and knowledge-transfer material that shortened onboarding.</li>
   </ul>
 </div>
@@ -98,11 +102,11 @@ Systems design for a multi-agent AI platform: seven lifecycle agents, event-driv
   <tr><td>AI &amp; LLM</td><td>RAG · Model Context Protocol (MCP) · AI Agents · Multi-Agent Orchestration · Prompt Engineering · OpenAI · Claude · Gemini · Ollama · LangChain · LangSmith · ChromaDB · Vector Embeddings</td></tr>
   <tr><td>LLM Evaluation</td><td>RAGAs · DeepEval · LLM-as-Judge · Chatbot &amp; Voicebot Testing · Token/Cost Accounting · WER/CER · Tracing</td></tr>
   <tr><td>Languages</td><td>Python · TypeScript · JavaScript · Java · SQL</td></tr>
-  <tr><td>Frontend</td><td>React · Three.js · HTML5 · CSS3 · Tailwind</td></tr>
+  <tr><td>Frontend</td><td>React · Vite · Three.js · Zustand · TanStack Query · React Router · Recharts · HTML5 · CSS3 · Tailwind · shadcn/ui</td></tr>
   <tr><td>Backend</td><td>FastAPI · Express · Spring Boot · Frappe/ERPNext · REST APIs · pytest</td></tr>
-  <tr><td>Data</td><td>PostgreSQL · MySQL · Supabase · BigQuery · ChromaDB · DBeaver</td></tr>
+  <tr><td>Data</td><td>PostgreSQL · MySQL · Supabase (RLS, edge functions, pg_cron) · BigQuery · ChromaDB · DBeaver</td></tr>
   <tr><td>Cloud &amp; DevOps</td><td>AWS EC2 · GCP (Cloud Run, GCS) · Azure · Cloudflare Workers · Docker · Podman · Linux · CI/CD · GitHub Actions · Jenkins · Git</td></tr>
-  <tr><td>Automation &amp; QE</td><td>Playwright · Selenium · Grafana k6 · Postman · OWASP ZAP · n8n · Jira · Confluence</td></tr>
+  <tr><td>Automation &amp; QE</td><td>Playwright · Selenium · Vitest · Grafana k6 · Postman · OWASP ZAP · n8n · Jira · Confluence</td></tr>
 </table>
 
 <h2>Education</h2>
