@@ -1,31 +1,55 @@
-name: Generate Snake Animation
-
+# ============================================================================
+# DISABLED on 2026-09-23. This workflow no longer runs automatically.
+#
+# The original is preserved verbatim below, commented out. To restore it:
+#   1. delete everything above the '--- original workflow ---' marker
+#   2. uncomment the block below (strip the leading '# ' from each line)
+#   3. re-enable the workflow in the repo's Actions tab (it is also
+#      disabled server-side via the Actions API)
+#
+# The stub below exists only to keep the file valid YAML. A file that is
+# commented out entirely is reported by GitHub as an invalid workflow,
+# which itself shows up as a failed run.
+# ============================================================================
+name: "Generate Snake Animation (disabled)"
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-
 jobs:
-  generate:
+  disabled:
+    if: false
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Generate snake from contribution grid
-        uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - run: "echo 'this workflow is disabled'"
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# --- original workflow ---
+# name: Generate Snake Animation
+#
+# on:
+#   schedule:
+#     - cron: "0 */12 * * *"
+#   workflow_dispatch:
+#   push:
+#     branches: [main]
+#
+# jobs:
+#   generate:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+#     steps:
+#       - name: Generate snake from contribution grid
+#         uses: Platane/snk@v3
+#         id: snake-gif
+#         with:
+#           github_user_name: ${{ github.repository_owner }}
+#           outputs: |
+#             dist/github-contribution-grid-snake.svg
+#             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+#
+#       - name: Push to output branch
+#         uses: crazy-max/ghaction-github-pages@v4
+#         with:
+#           target_branch: output
+#           build_dir: dist
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
