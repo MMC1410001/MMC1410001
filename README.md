@@ -18,17 +18,23 @@ I build **full stack products with AI wired through them**: RAG pipelines expose
 
 I came into AI through **evaluation**, not hype. Three years of automation and LLM testing across FinTech, Pharma and enterprise AI taught me to ship systems that are *measurably* correct, so the agents I build come with judge-scored harnesses, cost tracking and tracing attached, not bolted on later.
 
-- 🔭 **Currently at [Atrina Technologies](https://github.com/MMC1410001)**, building Frappe/ERPNext platforms (HR, payroll, OKRs, approvals, project delivery) and AI evaluation pipelines
+- 🔭 **Currently at [Atrina Technologies](https://github.com/MMC1410001)**, building Frappe/ERPNext platforms (HR, payroll, OKRs, approvals, project delivery), client data APIs, and AI evaluation pipelines
 - 🤖 **Building:** MCP servers, RAG retrieval systems, realtime voice agents, and LLM evaluation frameworks
 - 🌱 **Learning:** Agentic orchestration, production LLM systems, and evaluation-driven AI development
 - 👯 **Open to collaborating on:** open-source AI agent tooling, MCP servers, and RAG infrastructure
-- 💬 **Ask me about:** RAG · MCP · AI agents · LLM evaluation (LangSmith, RAGAs, DeepEval) · FastAPI · Frappe/ERPNext · Playwright
+- 💬 **Ask me about:** RAG · MCP · AI agents · LLM evaluation (LangSmith, RAGAs, DeepEval) · FastAPI · Postgres + Redis · Frappe/ERPNext · Playwright · k6
 - 📫 **Reach me:** **mayurmchaudhary1998@gmail.com** · 📍 Mumbai, India
 - ⚡ **Fun fact:** I started out as a Civil Engineer, and I still think about software as a structure that has to carry load.
 
 ---
 
 ## 🚀 Featured Projects
+
+### ⚙️ Backend & Data (latest)
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **[scheme-api](https://github.com/MMC1410001/scheme-api)** | Monthly dealer scheme API over daily SAP exports: a cron loader upserts files from GCS into Postgres (newest update wins, ~6 s a file with parallel downloads and bulk `COPY`), FastAPI serves it behind an API key, and a Redis cache holds **1 lakh requests a minute** (1,695 req/s, 1.3 ms median, zero errors in a laptop k6 run). Ships with **142 unit tests**, Postman, Playwright, k6 and ZAP/bandit suites. Sanitised copy of client work | `Python` `FastAPI` `PostgreSQL` `Redis` `k6` |
 
 ### 🤖 AI & Agents
 
@@ -69,7 +75,7 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 ## 💼 Experience
 
 **Software Engineer, Full Stack & AI** · *Atrina Technologies* · `Mar 2025 to Present`
-> Building Frappe/ERPNext platforms for approvals, OKRs, feedback, subscriptions and credentials. Developed **LangSmith + RAGAs evaluation pipelines** in Python/pytest with token-cost accounting. Worked across AI products: **Planmytax.ai** (AI tax filing), **AION** (enterprise chatbot), **JasmineLabs** (meeting transcription AI) and **ValenceAi.io** (Pharma AI). Mentors junior engineers on automation and test design.
+> Building Frappe/ERPNext platforms for approvals, OKRs, feedback, subscriptions and credentials. Built the **Birla Scheme API** end to end: SAP data ingestion from GCS into Postgres, a FastAPI service with a Redis response cache load-tested at **1 lakh requests a minute**, and its full QA suite. Developed **LangSmith + RAGAs evaluation pipelines** in Python/pytest with token-cost accounting. Worked across AI products: **Planmytax.ai** (AI tax filing), **AION** (enterprise chatbot), **JasmineLabs** (meeting transcription AI) and **ValenceAi.io** (Pharma AI). Mentors junior engineers on automation and test design.
 
 **Software Engineer, Automation** · *Smartstream Technologies* · `Nov 2022 to Mar 2025`
 > FinTech work across invoice reconciliation, equity and payments for clients including **Credit Suisse** and **Barclays**. Led the full BDD Cucumber to **Playwright + TypeScript** migration, cutting regression cycle time **50%** and reaching **90%** test coverage. Improved pipeline speed **20%** and reliability **15%**; reduced time-to-release **20%**. Migrated QA infrastructure to **AWS EC2**. *Manager appreciation award for process improvement.*
@@ -112,6 +118,7 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Frappe](https://img.shields.io/badge/Frappe%2FERPNext-0089FF?style=for-the-badge&logo=frappe&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
