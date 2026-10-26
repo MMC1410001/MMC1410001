@@ -22,7 +22,7 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 - 🤖 **Building:** MCP servers, RAG retrieval systems, realtime voice agents, and LLM evaluation frameworks
 - 🌱 **Learning:** Agentic orchestration, production LLM systems, and evaluation-driven AI development
 - 👯 **Open to collaborating on:** open-source AI agent tooling, MCP servers, and RAG infrastructure
-- 💬 **Ask me about:** RAG · MCP · AI agents · LLM evaluation (LangSmith, RAGAs, DeepEval) · FastAPI · Postgres + Redis · Frappe/ERPNext · Playwright · k6
+- 💬 **Ask me about:** RAG · MCP · AI agents · LLM evaluation (LangSmith, RAGAs, DeepEval) · FastAPI · Next.js · Postgres + Redis · BigQuery · Frappe/ERPNext · Playwright · k6
 - 📫 **Reach me:** **mayurmchaudhary1998@gmail.com** · 📍 Mumbai, India
 - ⚡ **Fun fact:** I started out as a Civil Engineer, and I still think about software as a structure that has to carry load.
 
@@ -30,11 +30,12 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 
 ## 🚀 Featured Projects
 
-### ⚙️ Backend & Data (latest)
+### ⚙️ Full Stack, Backend & Data (latest)
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[scheme-api](https://github.com/MMC1410001/scheme-api)** | Monthly dealer scheme API over daily SAP exports: a cron loader upserts files from GCS into Postgres (newest update wins, ~6 s a file with parallel downloads and bulk `COPY`), FastAPI serves it behind an API key, and a Redis cache holds **1 lakh requests a minute** (1,695 req/s, 1.3 ms median, zero errors in a laptop k6 run). Ships with **142 unit tests**, Postman, Playwright, k6 and ZAP/bandit suites. Sanitised copy of client work | `Python` `FastAPI` `PostgreSQL` `Redis` `k6` |
+| **[dealer-scheme-calculator](https://github.com/MMC1410001/dealer-scheme-calculator)** | Tells every dealer which reward slab they have reached, what it earns and how much more to buy for the next. A daily sync reads aggregated sales totals from BigQuery, a framework-free TypeScript rules engine applies each scheme circular from config, and the result ships as a signed-token **iframe** in the dealer's ordering apps, an admin report and an **OAuth2/JWT** dealer status API with rate limits and a Redis cache. **494 Vitest**, Playwright API + three-browser UI suites, k6 (p99 < 15 ms at 150 users), ZAP, Semgrep, gitleaks. Sanitised copy of client work | `Next.js` `TypeScript` `PostgreSQL` `Drizzle` `BigQuery` |
+| **[scheme-api](https://github.com/MMC1410001/scheme-api)** | Monthly dealer scheme API over daily SAP exports: a loader inside the API runs at 05:00 IST with retries, upserts every SAP component from GCS into Postgres (newest update wins, 3-month retention, ~6 s a file with parallel downloads and bulk `COPY`), FastAPI serves it behind **OAuth2/JWT** with per-IP rate limits, and a Redis cache holds **1 lakh requests a minute** (1,695 req/s, 1.3 ms median, zero errors in a laptop k6 run). Ships with **360 pytest tests**, Postman, Playwright, k6 and ZAP/bandit/pip-audit suites. Sanitised copy of client work | `Python` `FastAPI` `PostgreSQL` `Redis` `k6` |
 
 ### 🤖 AI & Agents
 
@@ -75,7 +76,7 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 ## 💼 Experience
 
 **Software Engineer, Full Stack & AI** · *Atrina Technologies* · `Mar 2025 to Present`
-> Building Frappe/ERPNext platforms for approvals, OKRs, feedback, subscriptions and credentials. Built the **Birla Scheme API** end to end: SAP data ingestion from GCS into Postgres, a FastAPI service with a Redis response cache load-tested at **1 lakh requests a minute**, and its full QA suite. Developed **LangSmith + RAGAs evaluation pipelines** in Python/pytest with token-cost accounting. Worked across AI products: **Planmytax.ai** (AI tax filing), **AION** (enterprise chatbot), **JasmineLabs** (meeting transcription AI) and **ValenceAi.io** (Pharma AI). Mentors junior engineers on automation and test design.
+> Building Frappe/ERPNext platforms for approvals, OKRs, feedback, subscriptions and credentials. Built two Birla Opus dealer services end to end, each with its full QA suite: the **Birla Scheme Calculator** (Next.js, PostgreSQL, BigQuery sync, scheme rules engine, dealer iframe, admin report and dealer status API) and the **Birla Scheme API** (daily SAP ingestion from GCS into Postgres, FastAPI with OAuth2/JWT and a Redis cache load-tested at **1 lakh requests a minute**). Developed **LangSmith + RAGAs evaluation pipelines** in Python/pytest with token-cost accounting. Worked across AI products: **Planmytax.ai** (AI tax filing), **AION** (enterprise chatbot), **JasmineLabs** (meeting transcription AI) and **ValenceAi.io** (Pharma AI). Mentors junior engineers on automation and test design.
 
 **Software Engineer, Automation** · *Smartstream Technologies* · `Nov 2022 to Mar 2025`
 > FinTech work across invoice reconciliation, equity and payments for clients including **Credit Suisse** and **Barclays**. Led the full BDD Cucumber to **Playwright + TypeScript** migration, cutting regression cycle time **50%** and reaching **90%** test coverage. Improved pipeline speed **20%** and reliability **15%**; reduced time-to-release **20%**. Migrated QA infrastructure to **AWS EC2**. *Manager appreciation award for process improvement.*
@@ -104,6 +105,7 @@ I came into AI through **evaluation**, not hype. Three years of automation and L
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
